@@ -1,6 +1,11 @@
+import Header from "../components/Header";
+import Menu from "../components/Menu";
+import Footer from "../components/Footer";
 function Dashboard() {
   return (
     <>
+      <Header />
+      <Menu />
       <div className="content-wrapper">
         <div className="content-header">
           <div className="container-fluid">
@@ -84,6 +89,7 @@ function Dashboard() {
           </div>
         </section>
       </div>
+      <Footer />
     </>
   );
 }
